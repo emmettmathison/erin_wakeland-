@@ -1,0 +1,23 @@
+{
+  "name": "erin_wakeland-",
+  "version": "1.0.0",
+  "description": "Erin Wakeland Personal Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmettmathison/erin_wakeland-.git"
+  },
+  "author": "Emmett Mathison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmettmathison/erin_wakeland-/issues"
+  },
+  "homepage": "https://github.com/emmettmathison/erin_wakeland-#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
