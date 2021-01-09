@@ -41,11 +41,15 @@ body {
 
 .media {
   display: none;
-  max-width: 10vw;
-  position: fixed;
+  max-width: 15vw;
+  position: absolute;
+  margin-top: -30vw;
 }
 
 #erin {
-  margin-right: 200px;
-  margin-bottom: 200px;
+  margin-left: 80px;
+}
+
+.gallery {
+  position: absolute;
 }

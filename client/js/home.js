@@ -1,61 +1,168 @@
-$("#erinWakeland").on("mouseover", function () {
+$("#erinWakeland").on("mouseenter", function () {
   $("#erin").show();
 });
+$("#erinWakeland").on("mouseleave", function () {
+  $("#erin").hide();
+});
+$("#erinWakeland").on("click", function () {
+  $("#erin").show();
+  $(this).on("mouseleave", function () {
+    $("#erin").show();
+  });
+});
 
-$("#oldPage").on("mouseover", function () {
+$("#oldPage").on("mouseenter", function () {
   $("#oldPageMovie").show();
 });
+$("#oldPage").on("mouseleave", function () {
+  $("#oldPageMovie").hide();
+});
+$("#oldPage").on("click", function () {
+  $("#oldPageMovie").show();
+  $(this).on("mouseleave", function () {
+    $("#oldPageMovie").show();
+  });
+});
 
-$("#yarnVideos").on("mouseover", function () {
+$("#yarnVideos").on("mouseenter", function () {
   $("#yarnMovie").show();
 });
-
-$("#paint").on("mouseover", function () {
-  console.log("hovering");
+$("#yarnVideos").on("mouseleave", function () {
+  $("#yarnMovie").hide();
+});
+$("#yarnVideos").on("click", function () {
+  $("#yarnMovie").show();
+  $(this).on("mouseleave", function () {
+    $("#yarnMovie").show();
+  });
 });
 
-$("#write").on("mouseover", function () {
+$("#paint").on("mouseenter", function () {
+  $("#painting").show();
+});
+$("#paint").on("mouseleave", function () {
+  $("#painting").hide();
+});
+$("#paint").on("click", function () {
+  $("#painting").show();
+  $(this).on("mouseleave", function () {
+    $("#painting").show();
+  });
+});
+
+$("#write").on("mouseenter", function () {
   $("#everythingYouNeed").show();
 });
+$("#write").on("mouseleave", function () {
+  $("#everythingYouNeed").hide();
+});
+$("#write").on("click", function () {
+  $("#everythingYouNeed").show();
+  $(this).on("mouseleave", function () {
+    $("#everythingYouNeed").show();
+  });
+});
 
-$("#designedThings").on("mouseover", function () {});
-
-$("#photos").on("mouseover", function () {
+$("#photos").on("mouseenter", function () {
   $("#photoFriends").show();
 });
-
-$("#elephant").on("mouseover", function () {
-  console.log("hovering");
+$("#photos").on("mouseleave", function () {
+  $("#photoFriends").hide();
+});
+$("#photos").on("click", function () {
+  $("#photoFriends").show();
+  $(this).on("mouseleave", function () {
+    $("#photoFriends").show();
+  });
 });
 
-$("#here").on("mouseover", function () {
-  console.log("hovering");
+$("#elephant").on("mouseenter", function () {
+  $("#elephantPhoto").show();
+});
+$("#elephant").on("mouseleave", function () {
+  $("#elephantPhoto").hide();
+});
+$("#elephant").on("click", function () {
+  $("#elephantPhoto").show();
+  $(this).on("mouseleave", function () {
+    $("#elephantPhoto").show();
+  });
 });
 
-$("#coolestGig").on("mouseover", function () {
-  console.log("hovering");
+$("#here").on("mouseenter", function () {
+  $("#earth").show();
+});
+$("#here").on("mouseleave", function () {
+  $("#earth").hide();
+});
+$("#here").on("click", function () {
+  $("#earth").show();
+  $(this).on("mouseleave", function () {
+    $("#earth").show();
+  });
 });
 
-$("#earthBody").on("mouseover", function () {
-  console.log("hovering");
+$("#coolestGig").on("mouseenter", function () {
+  $("#filmSetPhoto").show();
+});
+$("#coolestGig").on("mouseleave", function () {
+  $("#filmSetPhoto").hide();
+});
+$("#coolestGig").on("click", function () {
+  $("#filmSetPhoto").show();
+  $(this).on("mouseleave", function () {
+    $("#filmSetPhoto").show();
+  });
 });
 
-$("#islandSurvival").on("mouseover", function () {
-  console.log("hovering");
+$("#earthBody").on("mouseenter", function () {
+  $("#earthBodyImage").show();
+});
+$("#earthBody").on("mouseleave", function () {
+  $("#earthBodyImage").hide();
+});
+$("#earthBody").on("click", function () {
+  $("#earthBodyImage").show();
+  $(this).on("mouseleave", function () {
+    $("#earthBodyImage").show();
+  });
 });
 
-$("#ancientBathtub").on("mouseover", function () {
-  console.log("hovering");
+$("#islandSurvival").on("mouseenter", function () {
+  $("#islandSurvivalPhoto").show();
+});
+$("#islandSurvival").on("mouseleave", function () {
+  $("#islandSurvivalPhoto").hide();
+});
+$("#islandSurvival").on("click", function () {
+  $("#islandSurvivalPhoto").show();
+  $(this).on("mouseleave", function () {
+    $("#islandSurvivalPhoto").show();
+  });
 });
 
-$("#surprise").on("mouseover", function () {
-  console.log("hovering");
+$("#ancientBathtub").on("mouseenter", function () {
+  $("#bathtubPhoto").show();
+});
+$("#ancientBathtub").on("mouseleave", function () {
+  $("#bathtubPhoto").hide();
+});
+$("#ancientBathtub").on("click", function () {
+  $("#bathtubPhoto").show();
+  $(this).on("mouseleave", function () {
+    $("#bathtubPhoto").show();
+  });
 });
 
-$("#surpriseBook").on("mouseover", function () {
-  console.log("hovering");
+$("#surprise").on("mouseenter", function () {
+  $("#postcard").show();
 });
-
-$("#campPrefer").on("mouseover", function () {
-  console.log("hovering");
+$("#surprise").on("mouseleave", function () {
+  $("#postcard").hide();
+});
+$("#surprise").on("click", function () {
+  $("#postcard").show();
+  $(this).on("mouseleave", function () {
+    $("#postcard").show();
+  });
 });
