@@ -10,25 +10,23 @@ body {
 
 .header {
   width: 100vw;
-  border: 1px solid black;
 }
 
 .mainBody {
   width: 100vw;
-  border: 1px solid black;
+
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
 }
 
 .textContainer {
-  border: 1px solid black;
 }
 
 .textContainer {
   padding: 20px;
   max-height: 80vw;
   overflow: scroll;
-  min-width: 50vw;
+  min-width: 460px;
 }
 
 .text {
@@ -41,15 +39,85 @@ body {
 
 .media {
   display: none;
-  max-width: 15vw;
   position: absolute;
-  margin-top: -30vw;
-}
-
-#erin {
-  margin-left: 80px;
 }
 
 .gallery {
+}
+
+#erin {
+  margin-left: 5vw;
   position: absolute;
+  max-width: 15vw;
+  margin-top: -98vh;
+}
+
+#oldPageMovie {
+  margin-top: -99vh;
+  position: absolute;
+  width: 17vw;
+  margin-left: 60vw;
+}
+
+#yarnMovie {
+  position: absolute;
+  margin-top: -30vh;
+  margin-left: 13vw;
+}
+
+#painting {
+  margin-top: -40vh;
+  margin-left: 80vw;
+  width: 15vw;
+}
+
+#earthBodyImage {
+  margin-top: -71vh;
+  width: 21vw;
+  margin-left: 80vw;
+}
+
+#earth {
+  margin-top: -100vh;
+  width: 13vw;
+  margin-left: 43.5vw;
+}
+
+#filmSetPhoto {
+  margin-top: -40vh;
+  width: 14vw;
+}
+
+#elephantPhoto {
+  margin-top: -32vh;
+  width: 15vw;
+  margin-left: 43vw;
+}
+
+#islandSurvivalPhoto {
+  margin-top: -40vh;
+  width: 10vw;
+}
+
+#bathtubPhoto {
+  margin-top: -95vh;
+  width: 18vw;
+  margin-left: 80vw;
+}
+
+#postcard {
+  margin-top: -95vh;
+  width: 15vw;
+  margin-left: 24vw;
+}
+
+#photoFriends {
+  margin-top: -32vh;
+  width: 17vw;
+  margin-left: 60vw;
+}
+
+#everythingYouNeed {
+  margin-top: -40vh;
+  width: 15vw;
 }

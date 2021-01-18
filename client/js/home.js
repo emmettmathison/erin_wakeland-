@@ -102,13 +102,13 @@ $("#here").on("click", function () {
   });
 });
 
-$("#coolestGig").on("mouseenter", function () {
+$("#filmSets").on("mouseenter", function () {
   $("#filmSetPhoto").show();
 });
-$("#coolestGig").on("mouseleave", function () {
+$("#filmSets").on("mouseleave", function () {
   $("#filmSetPhoto").hide();
 });
-$("#coolestGig").on("click", function () {
+$("#filmSets").on("click", function () {
   $("#filmSetPhoto").show();
   $(this).on("mouseleave", function () {
     $("#filmSetPhoto").show();
